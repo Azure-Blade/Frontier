@@ -49,7 +49,7 @@ export default function Home() {
             className="bg-black w-64 m-2 text-white rounded p-2 hover:bg-gray-800 "
             
           >
-            Continue
+            New Button
           </button>
         </div>
       </div>
