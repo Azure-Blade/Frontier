@@ -23,8 +23,11 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  
   return (
     <html lang="en">
+      <script async src="http://localhost:3001/tracker.js" data-ackee-server="http://localhost:3001" data-ackee-domain-id="50f8ac6a-1d2e-4932-b4d3-0360ff55122f" data-ackee-opts='{ "ignoreLocalhost": false }'></script>
+      
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
