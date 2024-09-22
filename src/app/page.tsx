@@ -1,7 +1,7 @@
-"use client"
+"use client";
 import Image from "next/image";
-
 export default function Home() {
+  
   return (
     <div className="flex min-h-screen min-w-full">
       <div className="flex flex-col grow justify-center items-center p-6 text-center md:hidden">
@@ -29,7 +29,9 @@ export default function Home() {
             layout="fill"
             objectFit="cover"
             alt="Hero picture"
-          ></Image>
+            priority={true}
+            loading="eager"
+          />
         </div>
 
         <div className="flex flex-col justify-center items-center">
@@ -45,11 +47,8 @@ export default function Home() {
             type="password"
             placeholder="Password"
           />
-          <button
-            className="bg-black w-64 m-2 text-white rounded p-2 hover:bg-gray-800 "
-            
-          >
-            New Button
+          <button className="bg-black w-64 m-2 text-white rounded p-2 hover:bg-gray-800 ">
+            Continue
           </button>
         </div>
       </div>
