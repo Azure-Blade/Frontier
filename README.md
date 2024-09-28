@@ -13,7 +13,7 @@
 
 ## 👋 Introduction
 
-Frontier is a simple yet powerful open source analytics tool platform.
+Frontier is a simple yet powerful open-source analytics tool platform.
 
 
 
@@ -28,7 +28,7 @@ Get Ackee up and running…
 
 ## 📚 Documentation
 
-Read the docs on the offical website
+Read the docs on the official website
 
 ## TODOs and Roadmap:
 
@@ -47,4 +47,4 @@ Read the docs on the offical website
 - [ ] Custom charts
 - [ ] Tracking consent banner
 - [ ] SDKs for popular ui frameworks and languages
-- [ ] Wordpress plugin
+- [ ] WordPress plugin
