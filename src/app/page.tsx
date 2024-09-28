@@ -1,7 +1,8 @@
-"use client";
-import Image from "next/image";
+'use client';
+
+import Image from 'next/image';
+
 export default function Home() {
-  
   return (
     <div className="flex min-h-screen min-w-full">
       <div className="flex flex-col grow justify-center items-center p-6 text-center md:hidden">

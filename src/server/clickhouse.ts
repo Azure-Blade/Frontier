@@ -1,10 +1,11 @@
+import { ENV } from '@/env';
 import { createClient } from '@clickhouse/client';
 
-const connection = createClient({
-  url: 'http://localhost:8123',
-  username: 'default',
-  password: 'your_password',
-  database: 'helloworld',
+const db = createClient({
+  url: ENV.CLICKHOUSE_FQDN,
+  username: ENV.CLICKHOUSE_USER,
+  password: ENV.CLICKHOUSE_PASSWORD,
+  database: ENV.CLICKHOUSE_DATABASE
 });
 
-export default connection;
+export { db };

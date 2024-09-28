@@ -1,29 +1,24 @@
-"use client"
-import { useState, useEffect } from 'react'
+'use client';
 
-interface DataItem {
-  user_id: number
-  message: string
-  timestamp: string
-  metric: number
-}
+import type { DataItem } from '@/types';
+import { useEffect, useState } from 'react';
 
 export default function Page() {
-  const [data, setData] = useState<DataItem[]>([])
+  const [data, setData] = useState<DataItem[]>([]);
 
   useEffect(() => {
     async function fetchData() {
       try {
-        const response = await fetch('/api/getData')
-        const result = await response.json()
-        setData(result)
+        const response = await fetch('/api/getData');
+        const result = await response.json();
+        setData(result);
       } catch (error) {
-        console.error('Error fetching data:', error)
+        console.error('Error fetching data:', error);
       }
     }
 
-    fetchData()
-  }, [])
+    fetchData();
+  }, []);
 
   return (
     <div className="p-4">
@@ -49,5 +44,5 @@ export default function Page() {
         </tbody>
       </table>
     </div>
-  )
+  );
 }
