@@ -15,6 +15,12 @@
 
 Frontier is a simple yet powerful open source analytics tool platform.
 
+
+
+> [!IMPORTANT]
+> Frontier is currently in *EARLY* development stages.
+> Almost *nothing* is working. Please do not think this product is usable yet.
+
 ## 🚀 Get started
 
 Get Ackee up and running…
