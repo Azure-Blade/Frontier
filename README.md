@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://github.com/Azure-Blade/Frontier/blob/main/public/frontier-high-resolution-logo-black.png" title="Frontier" alt="Frontier logo" width="128">
+<img src="https://github.com/Azure-Blade/Frontier/blob/main/public/frontier-high-resolution-logo-black.png" title="Frontier" alt="Frontier logo" width="512">
 
 # Frontier
 
